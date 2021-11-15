@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Signika+Negative&family=Yuji+Boku&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            height: 10vh;
+            position: fixed;
+            width:100%;
+            /* border-bottom: 2px solid grey; */
+            box-shadow: 0px 5px 5px 5px silver;
+        }
+
+        .header ul.list{
+            margin-left: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            
+        }
+
+        .header ul.list li{
+            list-style: none;
+            padding: 5px 10px;
+            margin: 10px 10px;
+            font-size: 25px;
+            color: grey;
+        }
+
+        .mid{
+            height: 25vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+
+
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            /* margin-top: 50px; */
+        }
+
+        .content div.cont{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 50vh;
+            width: 50vw;
+        }
+        .content div.box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 25vh;
+            width: 25vw;
+            padding: 10px 10px;
+        }
+        .content div.pic img{
+           width: 40vw;
+           height: 40vh;
+        }
+    </style>
+</head>
+<body>
+   <div class="header" style="color: blue;">
+       <h1 class="head" allign="left" >Appland</h1>
+
+       <ul class="list">
+           <li class="item">Home</li>
+           <li class="item">App Features</li>
+           <li class="item">Gallery</li>
+           <li class="item">Pricing</li>
+           <li class="item">F.A.Q.</li>
+           <li class="item">Drop Down</li>
+           <li class="item">Contact</li>
+           <li class="item" style="background-color: blue; color: white;padding: 10px 25px;border-radius: 20px;">Get Started</li>
+       </ul>
+       <!-- <hr size=4 width="200%" colour="silver"> -->
+   </div>
+
+   <div class="mid">
+       <h1 style="color: blue; margin-top: 100px;margin-bottom: 25px;">App Features</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fuga ipsa et laudantium eveniet labore corporis aliquid numquam quam asperiores.</p>
+      <!--<p></p> ipsum dolor sit amet consectetur adipisicing elit. Minus fuga ipsa et laudantium eveniet labore corporis aliquid numquam quam asperiores.</p> -->
+   </div>
+
+   <div class="content">
+       <div class="cont">
+
+           <div class="box">
+               <h1>
+                   <i class=""></i>
+                   Lorem ipsum dolor sit.
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores nihil veniam eius est veritatis nisi illum modi necessitatibus nostrum.</p>
+            </div>
+            
+            <div class="box">
+                <h1>
+                    <i class="fa fa-bars"></i>
+                    Lorem ipsum dolor sit.
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores nihil veniam eius est veritatis nisi illum modi necessitatibus nostrum.</p>
+            </div>
+            <div class="box">
+                <h1>
+                    <i class=""></i>
+                    Lorem ipsum dolor sit.
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores nihil veniam eius est veritatis nisi illum modi necessitatibus nostrum.</p>
+            </div>
+            <div class="box">
+                <h1>
+                    <i class=""></i>
+                    Lorem ipsum dolor sit.
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maiores nihil veniam eius est veritatis nisi illum modi necessitatibus nostrum.</p>
+            </div>
+            
+        </div>
+            <div class="pic">
+           <img src="./WhatsApp Image 2021-11-15 at 11.41.29 AM.jpeg" alt="">
+       </div>
+   </div>
+
+</body>
+</html>
